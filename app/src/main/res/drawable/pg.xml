@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+  <item
+      android:id="@android:id/background"
+      android:drawable="@drawable/bg_mine_order_details_animation1">
+  </item>
+  <item android:id="@android:id/progress">
+    <clip
+        android:clipOrientation="vertical"
+        android:drawable="@drawable/bg_mine_order_details_animation2"
+        android:gravity="bottom">
+    </clip>
+  </item>
+</layer-list>
+

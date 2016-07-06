@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+  <pl.droidsonroids.gif.GifImageView
+      android:id="@+id/bg_status_icon"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:background="@drawable/bg_mine_order_details_animation3"
+      />
+  <com.example.window7.progressdemo.LoadingImageView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:src="@drawable/bg_mine_order_details_animation1"
+      app:mask_color="#BCDEEF"
+      />
+  <TextView
+      android:layout_marginLeft="60dp"
+      android:layout_marginTop="25dp"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:gravity="center"
+      android:text="100%"
+      android:textColor="#2d98c9"
+      android:textSize="16sp"
+      android:visibility="gone"
+      />
+</RelativeLayout>
